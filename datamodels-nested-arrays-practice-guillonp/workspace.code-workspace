@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../Downloads/Maze-Game-Deluxe"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "datamodels-nested-arrays-practice-guillonp"
+	}
+}

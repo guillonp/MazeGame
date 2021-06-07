@@ -1,0 +1,48 @@
+/* Write your CSS Here. */
+*{
+    box-sizing: border-box;
+}
+.rows{
+    display: flex;
+    
+    /* white-space: pre-wrap; */
+}
+
+.cells{
+    display: flex;
+    /* flex-grow: 1; */
+    height: 35px;
+    width: 35px;
+    
+    /* border: 2px solid black; */
+}
+
+#player{
+    /* border: 1px solid black; */
+    width: 35px;
+    height: 35px;
+    background-color: darkgreen;
+    top: 341px;
+    left:43px;
+    position: absolute;
+    border-radius: 50%;
+    /* animation-duration: 10ms; */
+    animation: 3s linear 1s infinite running slidein;
+}
+
+#invPlayer{
+    width: 35px;
+    height: 35px;
+    top: 341px;
+    left:8px;
+    position: absolute;
+}
+
+.winningDiv{
+    position: absolute;
+    left: 830px;
+    bottom: 350px;
+    font-size: 30px;
+
+    border: 1px solid black
+}
